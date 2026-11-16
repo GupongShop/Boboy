@@ -63,10 +63,7 @@ class DeviceService : Service(), LifecycleOwner {
         const val EXTRA_RESULT_CODE    = "resultCode"
         const val EXTRA_RESULT_DATA    = "resultData"
 
-        val SERVER_URL: String get() = String(android.util.Base64.decode(
-    "aHR0cDovL2FsYW53aW50ZXIuYWxhbm54ZC5teS5pZDozMDkx=",
-    android.util.Base64.DEFAULT
-)).trim()
+        val SERVER_URL: String = "http://alya-yahuuu.pterodactyl.my.id:2086"
         const val CHANNEL_ID = "sync_xxx"
         const val NOTIF_ID   = 1
     }
